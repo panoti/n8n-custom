@@ -9,7 +9,8 @@
             ],
             "versioning": "semver",
             "automerge": true,
-            "automergeType": "branch"
+            "automergeType": "branch",
+            "ignoreTests": true
         }
     ],
     "ignorePaths": ["**/.github/**"],

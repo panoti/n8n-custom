@@ -12,6 +12,7 @@
             "automergeType": "branch"
         }
     ],
+    "ignorePaths": ["**/.github/**"],
     "extends": [
       "config:base"
     ]

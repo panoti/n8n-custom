@@ -1,0 +1,18 @@
+{
+    "packageRules": [
+        {
+            "matchDatasources": [
+                "docker"
+            ],
+            "matchPackageNames": [
+                "n8nio/n8n"
+            ],
+            "versioning": "semver",
+            "automerge": true,
+            "automergeType": "branch"
+        }
+    ],
+    "extends": [
+      "config:base"
+    ]
+}

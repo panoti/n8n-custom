@@ -1,3 +1,3 @@
-FROM n8nio/n8n:0.187.1
+FROM n8nio/n8n:0.187.2
 
 RUN cd /usr/local/lib/node_modules/n8n && npm install deep-diff

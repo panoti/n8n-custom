@@ -1,5 +1,6 @@
-FROM n8nio/n8n:1.122.3
+FROM n8nio/n8n:1.121.3
 
 USER root
-RUN apk --no-cache add curl
+RUN apk --no-cache add curl && \
+    curl -L https://aka.ms/InstallAzureCli | bash
 USER node

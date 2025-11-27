@@ -1,3 +1,5 @@
 FROM n8nio/n8n:1.122.3
 
-RUN cd /usr/local/lib/node_modules/n8n && npm install deep-diff
+USER root
+RUN apk --no-cache add curl
+USER node

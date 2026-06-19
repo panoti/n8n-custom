@@ -1,0 +1,5 @@
+FROM n8nio/runners:2.26.7
+
+USER root
+RUN apk --no-cache add curl
+USER node

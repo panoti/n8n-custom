@@ -11,5 +11,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - name: Build the Docker image
+    - name: Build the main Docker image
       run: docker build . --file Dockerfile --tag n8n-custom:$(date +%s)
+    - name: Build the runner Docker image
+      run: docker build . --file Dockerfile-runner --tag n8n-custom-runner:$(date +%s)

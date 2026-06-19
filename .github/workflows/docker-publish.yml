@@ -12,6 +12,8 @@ on:
     branches: [ "main" ]
     paths:
       - Dockerfile
+      - Dockerfile-runner
+      - .github/workflows/docker-publish.yml
     # Publish semver tags as releases.
     #tags: [ 'v*.*.*' ]
   #pull_request:

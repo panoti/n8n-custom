@@ -1,4 +1,4 @@
-FROM n8nio/runners:2.26.7
+FROM n8nio/runners:3.0.1
 
 USER root
 USER node
